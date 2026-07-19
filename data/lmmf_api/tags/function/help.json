@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "lmmf_api:help",
+        "lmmf_api:player/help"
+    ]
+}

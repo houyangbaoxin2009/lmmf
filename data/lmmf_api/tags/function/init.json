@@ -1,0 +1,8 @@
+{
+    "replace": true,
+    "values": [
+        "lmmf_api:init",
+        "lmmf_api:reload",
+        "lmmf_api:unload"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "lmmf_api:player/run/rfel",
+        "lmmf_api:player/run/rfl",
+        "lmmf_api:player/run/rfsl",
+        "lmmf_api:player/run/rftt"
+    ]
+}

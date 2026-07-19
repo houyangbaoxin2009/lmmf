@@ -1,7 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "emoj_api:version",
-        "emoj_api:player/version"
-    ]
-}

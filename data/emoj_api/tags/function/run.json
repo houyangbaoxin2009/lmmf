@@ -1,9 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "emoj_api:player/run/rfel",
-        "emoj_api:player/run/rfl",
-        "emoj_api:player/run/rfsl",
-        "emoj_api:player/run/rftt"
-    ]
-}

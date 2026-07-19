@@ -1,0 +1,7 @@
+{
+    "replace": true,
+    "values": [
+        "lmmf_api:version",
+        "lmmf_api:player/version"
+    ]
+}

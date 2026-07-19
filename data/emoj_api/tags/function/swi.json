@@ -1,9 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "emoj_api:player/swi/sfel",
-        "emoj_api:player/swi/sfl",
-        "emoj_api:player/swi/sfsl",
-        "emoj_api:player/swi/sftt"
-    ]
-}

@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "lmmf_api:player/swi/sfel",
+        "lmmf_api:player/swi/sfl",
+        "lmmf_api:player/swi/sfsl",
+        "lmmf_api:player/swi/sftt"
+    ]
+}

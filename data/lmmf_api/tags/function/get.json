@@ -1,0 +1,9 @@
+{
+    "replace": true,
+    "values": [
+        "lmmf_api:player/get/food_exhaustion_level",
+        "lmmf_api:player/get/food_exhaustion_level",
+        "lmmf_api:player/get/food_exhaustion_level",
+        "lmmf_api:player/get/food_exhaustion_level"
+    ]
+}

@@ -1,9 +1,0 @@
-{
-    "replace": true,
-    "values": [
-        "emoj_api:player/get/food_exhaustion_level",
-        "emoj_api:player/get/food_exhaustion_level",
-        "emoj_api:player/get/food_exhaustion_level",
-        "emoj_api:player/get/food_exhaustion_level"
-    ]
-}
