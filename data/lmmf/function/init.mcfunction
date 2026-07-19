@@ -16,7 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function emoj_api:version
-say EXMCofJiro 26w04a
+function lmmf:version
 
 return 1

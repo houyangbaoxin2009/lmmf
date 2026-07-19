@@ -17,12 +17,12 @@
 # ----------------------------------------------------------------------------
 
 #常规版本代号
-scoreboard objectives add emojapi_ver dummy
-scoreboard players set emojapi emojapi_ver 1
-data modify storage emoj_api version set value 1
+scoreboard objectives add lmmf_api_player_ver dummy
+scoreboard players set lmmfapi lmmf_api_player_ver 1
+data modify storage lmmf_api_player version set value 1
 #内核版本代号
-scoreboard objectives add emojapi_cver dummy
-scoreboard players set emojapi emojapi_cver 1
-data modify storage lmmf_api core_version set value 1
+scoreboard objectives add lmmf_api_player_cver dummy
+scoreboard players set lmmfapi lmmf_api_player_cver 1
+data modify storage lmmf_api_player core_version set value 1
 #成功
 return 1
