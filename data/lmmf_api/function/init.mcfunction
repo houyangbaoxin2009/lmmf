@@ -17,6 +17,6 @@
 # ----------------------------------------------------------------------------
 
 function lmmf_api:version
-say EXMCofJiro 26w04a
+say LMMF 26w01a
 
 return 1
