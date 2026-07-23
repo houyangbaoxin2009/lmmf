@@ -1,6 +1,5 @@
 {
     "values": [
-        "lmmf:init",
         "lmmf_api:init"
     ]
 }

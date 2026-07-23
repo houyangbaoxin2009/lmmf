@@ -17,6 +17,9 @@
 # ----------------------------------------------------------------------------
 
 function lmmf_api:version
-say LMMF 26w01a
+function lmmf:init
+function lmmf_terra:init
+
+say LMMF_API 加载完成!
 
 return 1

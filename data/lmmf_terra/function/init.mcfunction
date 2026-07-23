@@ -16,13 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#常规版本代号
-scoreboard objectives add lmmf_api_ver dummy
-scoreboard players set lmmfapi lmmf_api_ver 1
-data modify storage lmmf_api version set value 1
-#内核版本代号
-scoreboard objectives add lmmf_api_cver dummy
-scoreboard players set lmmfapi lmmf_api_cver 1
-data modify storage lmmf_api core_version set value 1
-#成功
+function lmmf_terra:version
+
 return 1
