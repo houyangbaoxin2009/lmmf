@@ -16,15 +16,8 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#常规版本代号
-scoreboard objectives add lmmf_var dummy
-scoreboard players set lmmfapi lmmf_var 1
-data modify storage lmmf version set value 1
-#内核版本代号
-scoreboard objectives add lmmf_cver dummy
-scoreboard players set lmmfapi lmmf_cver 1
-data modify storage lmmf core_version set value 1
-#api 依赖版本
-data modify storage lmmf api_version set value 1
-#成功
+#设置 bossbar(宏: id, value, max)
+bossbar set $(id) value $(value)
+bossbar set $(id) max $(max)
+
 return 1

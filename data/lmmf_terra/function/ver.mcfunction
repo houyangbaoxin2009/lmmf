@@ -24,5 +24,7 @@ data modify storage lmmf_terra version set value 1
 scoreboard objectives add lmmf_terra_cver dummy
 scoreboard players set lmmfapi lmmf_terra_cver 1
 data modify storage lmmf_terra core_version set value 1
+#api 依赖版本
+data modify storage lmmf_terra api_version set value 1
 #成功
 return 1
