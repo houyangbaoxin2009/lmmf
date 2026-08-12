@@ -4,6 +4,15 @@
         "lmmf_api:player/get/food_level",
         "lmmf_api:player/get/food_saturation_level",
         "lmmf_api:player/get/food_exhaustion_level",
-        "lmmf_api:player/get/food_tick_timer"
+        "lmmf_api:player/get/food_tick_timer",
+        "lmmf_api:player/get/health",
+        "lmmf_api:player/get/xp_level",
+        "lmmf_api:player/get/xp_progress",
+        "lmmf_api:player/get/xp_total",
+        "lmmf_api:player/get/pos",
+        "lmmf_api:player/get/rotation",
+        "lmmf_api:player/get/effects",
+        "lmmf_api:player/get/walk_speed",
+        "lmmf_api:player/get/fly_speed"
     ]
 }

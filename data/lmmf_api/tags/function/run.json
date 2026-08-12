@@ -4,6 +4,15 @@
         "lmmf_api:player/run/rfel",
         "lmmf_api:player/run/rfl",
         "lmmf_api:player/run/rfsl",
-        "lmmf_api:player/run/rftt"
+        "lmmf_api:player/run/rftt",
+        "lmmf_api:player/run/rh",
+        "lmmf_api:player/run/rxl",
+        "lmmf_api:player/run/rxp",
+        "lmmf_api:player/run/rxt",
+        "lmmf_api:player/run/rp",
+        "lmmf_api:player/run/rr",
+        "lmmf_api:player/run/re",
+        "lmmf_api:player/run/rws",
+        "lmmf_api:player/run/rfs2"
     ]
 }

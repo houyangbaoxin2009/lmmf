@@ -4,6 +4,15 @@
         "lmmf_api:player/swi/sfel",
         "lmmf_api:player/swi/sfl",
         "lmmf_api:player/swi/sfsl",
-        "lmmf_api:player/swi/sftt"
+        "lmmf_api:player/swi/sftt",
+        "lmmf_api:player/swi/sh",
+        "lmmf_api:player/swi/sxl",
+        "lmmf_api:player/swi/sxp",
+        "lmmf_api:player/swi/sxt",
+        "lmmf_api:player/swi/sp",
+        "lmmf_api:player/swi/sr",
+        "lmmf_api:player/swi/se",
+        "lmmf_api:player/swi/sws",
+        "lmmf_api:player/swi/sfs2"
     ]
 }
