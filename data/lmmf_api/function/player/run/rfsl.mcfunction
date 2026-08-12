@@ -15,3 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ----------------------------------------------------------------------------
+
+#执行: 将存储的饱食度应用到玩家
+execute if data storage lmmf_api:player foodSaturationLevel run data modify entity @s foodSaturationLevel set from storage lmmf_api:player foodSaturationLevel
+return 1

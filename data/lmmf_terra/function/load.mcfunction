@@ -16,9 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#常规版本代号
-scoreboard objectives add lmmf_terra_var dummy
-scoreboard players set lmmfapi lmmf_terra_var 1
-data modify storage lmmf_terra version set value 1
-#成功
+#模块加载
+
 return 1

@@ -16,13 +16,10 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#常规版本代号
-scoreboard objectives add lmmf_api_player_ver dummy
-scoreboard players set lmmfapi lmmf_api_player_ver 1
-data modify storage lmmf_api_player version set value 1
-#内核版本代号
-scoreboard objectives add lmmf_api_player_cver dummy
-scoreboard players set lmmfapi lmmf_api_player_cver 1
-data modify storage lmmf_api_player core_version set value 1
-#成功
+scoreboard objectives remove lmmf_var
+scoreboard objectives remove lmmf_cver
+
+data remove storage lmmf version
+data remove storage lmmf core_version
+
 return 1

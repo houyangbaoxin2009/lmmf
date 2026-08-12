@@ -16,6 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_terra:version
+function lmmf_terra:ver
 
 return 1

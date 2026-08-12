@@ -16,6 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf:version
+function lmmf:ver
 
 return 1

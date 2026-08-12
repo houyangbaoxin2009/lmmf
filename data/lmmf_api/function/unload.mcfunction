@@ -16,11 +16,16 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-scoreboard objectives remove lmmfapi_cver
-scoreboard objectives remove lmmfapi_ver
+function #lmmf_api:unload
+
+scoreboard objectives remove lmmf_api_ver
+scoreboard objectives remove lmmf_api_cver
+scoreboard objectives remove lmmf_api_player_ver
+scoreboard objectives remove lmmf_api_player_cver
 scoreboard players reset lmmfapi
 
-data remove storage lmmf_api ver
-data remove storage lmmf_api:player foodLevel
+data remove storage lmmf_api version
+data remove storage lmmf_api core_version
+data remove storage lmmf_api:player
 
 return 1

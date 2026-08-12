@@ -1,7 +1,7 @@
 {
     "replace": false,
     "values": [
-        "lmmf:ver",
-        "lmmf_terra:ver"
+        "lmmf:load",
+        "lmmf_terra:load"
     ]
 }

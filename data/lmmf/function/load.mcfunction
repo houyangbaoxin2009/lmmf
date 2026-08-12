@@ -16,9 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#常规版本代号
-scoreboard objectives add lmmf_var dummy
-scoreboard players set lmmfapi lmmf_var 1
-data modify storage lmmf version set value 1
-#成功
+#模块加载
+
 return 1

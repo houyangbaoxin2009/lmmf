@@ -1,0 +1,9 @@
+# opencode 运行时目录
+.omo/
+
+# IDE / 系统文件
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db

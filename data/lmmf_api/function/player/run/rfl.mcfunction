@@ -15,3 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ----------------------------------------------------------------------------
+
+#执行: 将存储的饥饿值应用到玩家
+execute if data storage lmmf_api:player foodLevel run data modify entity @s foodLevel set from storage lmmf_api:player foodLevel
+return 1

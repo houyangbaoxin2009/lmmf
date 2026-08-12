@@ -15,3 +15,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ----------------------------------------------------------------------------
+
+#切换食物计刻应用开关
+execute unless data storage lmmf_api:player swi.foodTickTimer run data modify storage lmmf_api:player swi.foodTickTimer set value true
+execute if data storage lmmf_api:player swi.foodTickTimer run data remove storage lmmf_api:player swi.foodTickTimer
+return 1

@@ -16,6 +16,10 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#执行: 将存储的消耗度应用到玩家
-execute if data storage lmmf_api:player foodExhaustionLevel run data modify entity @s foodExhaustionLevel set from storage lmmf_api:player foodExhaustionLevel
+scoreboard objectives remove lmmf_terra_var
+scoreboard objectives remove lmmf_terra_cver
+
+data remove storage lmmf_terra version
+data remove storage lmmf_terra core_version
+
 return 1

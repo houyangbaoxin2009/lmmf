@@ -15,3 +15,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ----------------------------------------------------------------------------
+
+#执行: 将存储的食物计刻应用到玩家
+execute if data storage lmmf_api:player foodTickTimer run data modify entity @s foodTickTimer set from storage lmmf_api:player foodTickTimer
+return 1

@@ -16,10 +16,7 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:version
-function lmmf:init
-function lmmf_terra:init
-
-say LMMF_API 加载完成!
+function lmmf_api:ver
+function lmmf_api:player/ver
 
 return 1

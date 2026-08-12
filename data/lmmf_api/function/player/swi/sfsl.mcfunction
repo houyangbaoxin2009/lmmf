@@ -15,3 +15,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ----------------------------------------------------------------------------
+
+#切换饱食度应用开关
+execute unless data storage lmmf_api:player swi.foodSaturationLevel run data modify storage lmmf_api:player swi.foodSaturationLevel set value true
+execute if data storage lmmf_api:player swi.foodSaturationLevel run data remove storage lmmf_api:player swi.foodSaturationLevel
+return 1

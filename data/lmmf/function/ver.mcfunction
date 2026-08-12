@@ -16,6 +16,13 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-#执行: 将存储的消耗度应用到玩家
-execute if data storage lmmf_api:player foodExhaustionLevel run data modify entity @s foodExhaustionLevel set from storage lmmf_api:player foodExhaustionLevel
+#常规版本代号
+scoreboard objectives add lmmf_var dummy
+scoreboard players set lmmfapi lmmf_var 1
+data modify storage lmmf version set value 1
+#内核版本代号
+scoreboard objectives add lmmf_cver dummy
+scoreboard players set lmmfapi lmmf_cver 1
+data modify storage lmmf core_version set value 1
+#成功
 return 1

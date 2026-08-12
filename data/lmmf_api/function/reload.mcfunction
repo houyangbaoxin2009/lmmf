@@ -17,6 +17,6 @@
 # ----------------------------------------------------------------------------
 
 function lmmf_api:unload
-function lmmf_api:init
+function lmmf_api:load
 
 return 1
