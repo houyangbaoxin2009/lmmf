@@ -16,14 +16,12 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#减法: storage lmmf_api:util.score.a - .b 结果存分数(宏: obj, player)
+scoreboard objectives add lmmf_api_util dummy
+execute store result score #lmmf_a lmmf_api_util run data get storage lmmf_api:util score.a
+execute store result score #lmmf_b lmmf_api_util run data get storage lmmf_api:util score.b
+scoreboard players operation $(player) $(obj) = #lmmf_a lmmf_api_util
+scoreboard players operation $(player) $(obj) -= #lmmf_b lmmf_api_util
+execute store result storage lmmf_api:util score.result int 1 run scoreboard players get $(player) $(obj)
 
 return 1

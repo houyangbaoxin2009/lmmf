@@ -16,14 +16,7 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#用 lmmf_api 工具宏给玩家一个苹果
+function lmmf_api:util/item/give {item_id:"minecraft:apple",item_count:1}
 
 return 1

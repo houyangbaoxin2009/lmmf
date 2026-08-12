@@ -16,14 +16,6 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#模块加载
 
 return 1

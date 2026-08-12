@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Example module for lmmf_api",
+    "min_format": 88,
+    "max_format": 200
+  }
+}

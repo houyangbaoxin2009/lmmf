@@ -16,14 +16,8 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#入服处理: 发送欢迎消息 + 给礼物
+tellraw @s [{"text":"[欢迎] ","color":"green"},{"text":"欢迎来到服务器!","color":"white"}]
+function example_mod:give_gift
 
 return 1

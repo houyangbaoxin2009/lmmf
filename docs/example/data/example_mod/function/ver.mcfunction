@@ -16,14 +16,15 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
-
+#常规版本代号
+scoreboard objectives add example_mod_var dummy
+scoreboard players set lmmfapi example_mod_var 1
+data modify storage example_mod version set value 1
+#内核版本代号
+scoreboard objectives add example_mod_cver dummy
+scoreboard players set lmmfapi example_mod_cver 1
+data modify storage example_mod core_version set value 1
+#api 依赖版本
+data modify storage example_mod api_version set value 1
+#成功
 return 1

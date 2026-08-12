@@ -16,14 +16,7 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#检测执行者是否在球形区域内(宏: cx,cy,cz,radius)
+execute store result storage lmmf_api:util region_result byte 1 if entity @s[x=$(cx),y=$(cy),z=$(cz),distance=..$(radius)]
 
 return 1

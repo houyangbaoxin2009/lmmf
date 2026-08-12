@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "lmmf_api:schedule/tick"
+        "lmmf_api:schedule/tick",
+        "lmmf_api:event/detect"
     ]
 }

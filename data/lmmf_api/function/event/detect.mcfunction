@@ -16,14 +16,13 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+# 事件检测器: 每 tick 运行 (挂到 #lmmf_api:tick)
+# 入服检测: 已入服标记为 0 的在线玩家触发入服事件, 随后打标
+execute as @a if score @s lmmf_api_seen matches 0 run function lmmf_api:event/player_join
+execute as @a run scoreboard players set @s lmmf_api_seen 1
+# 昼夜检测
+function lmmf_api:event/detect_day_night
+# 维度切换检测
+function lmmf_api:event/detect_dimension
 
 return 1

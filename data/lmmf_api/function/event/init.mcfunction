@@ -16,14 +16,14 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+# 事件系统初始化: 创建 objective
+# lmmf_api_event: 昼夜状态/时间临时分数 (#lmmf_time, #lmmf_is_day)
+# lmmf_api_online: 玩家在线标记 (预留)
+# lmmf_api_seen: 玩家已入服标记 (0=未入服, 1=已入服)
+# lmmf_api_dim: 玩家当前维度 (0=主世界, 1=下界, 2=末地)
+scoreboard objectives add lmmf_api_event dummy
+scoreboard objectives add lmmf_api_online dummy
+scoreboard objectives add lmmf_api_seen dummy
+scoreboard objectives add lmmf_api_dim dummy
 
 return 1

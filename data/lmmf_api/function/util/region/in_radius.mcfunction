@@ -16,14 +16,7 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#检测执行者与点(x,z)的水平距离(宏: x,z,radius)
+execute store result storage lmmf_api:util region_result byte 1 if entity @s[x=$(x),z=$(z),distance=..$(radius)]
 
 return 1

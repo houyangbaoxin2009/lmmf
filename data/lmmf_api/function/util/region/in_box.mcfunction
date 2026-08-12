@@ -16,14 +16,7 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-function lmmf_api:init
-function lmmf_api:event/init
-function #lmmf_api:ver
-function #lmmf_api:load
-scoreboard objectives add lmmf_api_check dummy
-execute store result score #api_version lmmf_api_check run data get storage lmmf_api version
-function lmmf_api:check
-
-say LMMF_API 加载完成!
+#检测执行者是否在区域内(宏: x1,y1,z1,x2,y2,z2)
+execute store result storage lmmf_api:util region_result byte 1 if entity @s[x=$(x1)..$(x2),y=$(y1)..$(y2),z=$(z1)..$(z2)]
 
 return 1
