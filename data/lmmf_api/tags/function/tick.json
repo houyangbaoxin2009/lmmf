@@ -1,4 +1,6 @@
 {
     "replace": false,
-    "values": []
+    "values": [
+        "lmmf_api:schedule/tick"
+    ]
 }

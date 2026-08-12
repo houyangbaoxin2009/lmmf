@@ -16,8 +16,8 @@
 # limitations under the License.
 # ----------------------------------------------------------------------------
 
-tellraw @s [{text: "[LMMFAPI Doc]", color: "dark_aqua", click_event: {action: "open_url", url: "https://doc.franj2.top/lmmfapi"}, hover_event: {action: "show_text", value: "Click to open URL"}}]
-tellraw @s [{text: "[LMMFAPI API]", color: "dark_aqua"}, {text: " 调度器 - 延迟: function lmmf_api:schedule/delay {ticks:N, function:\"ns:path\"}; 循环: function lmmf_api:schedule/loop {ticks:N, function:\"ns:path\"} (目标函数末尾调用 loop 续期)", color: "gray"}]
-tellraw @s [{text: "[LMMFAPI Event]", color: "dark_aqua"}, {text: " 事件触发 - player_join | player_death | day | night: function lmmf_api:event/<name>; 注册处理函数: 加入标签 #lmmf_api:on_player_join / on_player_death / on_day / on_night", color: "gray"}]
+# 夜晚事件: 触发所有注册到 #lmmf_api:on_night 的处理函数
+# 由模块/命令手动调用: function lmmf_api:event/night
+function #lmmf_api:on_night
 
 return 1
